@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main {
+    background-color: #ffffff;
+    width: 1200px;
+    height: 900px;
+    border-radius: 20px;
+    display: flex;
+
+}
+h1 {
+    font-weight: 700;
+}
+
+.sale-price {
+    font-weight: 700 ;
+    color:hsl(158, 36%, 37%) ;
+}
+
+.add-to-cart {
+    background-color: hsl(158, 36%, 37%);
+    color: #ffffff;
+    border-radius: 16px;
+    height: 60px;
+    width: 240px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.image-wrapper {
+}
+
+
+.text-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.price {
+    text-align: center;
+    display: flex;
+   align-content: center;
+
+}
